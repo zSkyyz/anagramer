@@ -1,11 +1,20 @@
 {
-  "name": "anagramer",
-  "version": "1.0.0",
-  "description": "Anagram any word and count anagrams for this word.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "skyyz#9469",
+	"name": "anagramer",
+	"version": "0.0.0",
+	"description": "Anagramer is a JavaScript library that generates anagrams and counts their number for a given word. It's ideal for games, puzzles, and word-based apps. Easily create a random anagram and explore the countless letter combinations. Use anagramer to add anagram functionality to your projects.",
+	"private": false,
+  "keywords": [
+		"anagramer",
+		"anagram",
+		"random",
+		"count",
+		"puzzles",
+		"games"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zSkyyz/anagramer"
+	},
+ "author": "skyyz#9469",
   "license": "MIT"
 }
