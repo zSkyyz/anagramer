@@ -7,13 +7,13 @@ To install "anagramer", simply clone the repository and add the anagramer.js fil
 # Usage
 To use "anagramer", call the AnagramBuilder(word) function with a string argument word that represents the word for which you want to generate anagrams. The function returns an array of all possible anagrams for that word. You can also use the AnagramRandomizer(word) function to generate a random anagram for the word.
 
-```const { AnagramBuilder, AnagramRandomizer } = require('./anagramer');
+`const { AnagramBuilder, AnagramRandomizer } = require('./anagramer');
 
 // Generate all anagrams for the word "banana"
 const allAnagrams = AnagramBuilder('banana')
 
 // Generate a random anagram for the word "banana"
-const randomAnagram = AnagramRandomizer('banana');```
+const randomAnagram = AnagramRandomizer('banana');`
 # Examples
 Here are some examples of how you can use "anagramer" in your projects:
 
