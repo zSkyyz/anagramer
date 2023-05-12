@@ -2,7 +2,9 @@
 Anagramer is a JavaScript library that allows you to generate anagrams for a given word, as well as count the number of possible anagrams for a word. With anagramer, you can easily create a random anagram from any word and explore the countless possible combinations of letters that can be made. This library is designed for developers looking to add anagram functionality to their projects and is an excellent resource for games, puzzles, and word-based applications.
 
 # Installation
-To install "anagramer", simply clone the repository and add the anagramer.js file to your project.
+```
+npm install anagramer
+```
 
 # Usage
 To use "anagramer", call the AnagramBuilder(word) function with a string argument word that represents the word for which you want to generate anagrams. The function returns an array of all possible anagrams for that word. You can also use the AnagramRandomizer(word) function to generate a random anagram for the word.
