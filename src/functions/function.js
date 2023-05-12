@@ -43,11 +43,11 @@
     return anagrams;
   }
   
-  function AnagramRandom(word) {
+  function AnagramRandomizer(word) {
     const anagrams = AnagramBuilder(word);
     const randIndex = Math.floor(Math.random() * anagrams.length);
     return anagrams[randIndex];
   }
 
 
-module.exports = { AnagramBuilder, AnagramRandom, AnagramCount }
+module.exports = { AnagramBuilder, AnagramRandomizer, AnagramCount }
