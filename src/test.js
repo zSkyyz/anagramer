@@ -1,6 +1,6 @@
 const anagramer = require("./functions/function");
 
-var word = "Bulldog"
+var word = "Banana"
 
 let anagrambuilder = anagramer.AnagramBuilder(word)
 let anagramcount = anagramer.AnagramCount(word)
