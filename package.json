@@ -1,0 +1,11 @@
+{
+  "name": "anagramer",
+  "version": "1.0.0",
+  "description": "Anagram any word and count anagrams for this word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skyyz#9469",
+  "license": "MIT"
+}
