@@ -1,11 +1,11 @@
-const anagramer = require("./functions/function");
+const { AnagramBuilder, AnagramRandomizer, AnagramCount } = require("./functions/function");
 
 var word = "Banana"
 
-let anagrambuilder = anagramer.AnagramBuilder(word)
-let anagramcount = anagramer.AnagramCount(word)
-let anagramrandom = anagramer.AnagramRandom(word)
+var anagrambuilder = AnagramBuilder(word)
+var anagramcount = AnagramCount(word)
+var anagramrandomizer = AnagramRandomizer(word)
 
 console.log("AnagramBuilder => " + anagrambuilder)
 console.log("AnagramCount => " + anagramcount)
-console.log("AnagramRandom => " + anagramrandom)
+console.log("AnagramRandomizer => " + anagramrandomizer)
